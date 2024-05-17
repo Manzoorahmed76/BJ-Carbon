@@ -6,21 +6,21 @@ import { COLORS } from '../lib/constants'
 const Footer = () => (
   <footer role="contentinfo" className="mt3">
     <nav className="mt3">
-      <Link href="/about" prefetch={false}>
-        <a className="link" href="/about">
+      <Link href="" prefetch={false}>
+        <a className="link" href="">
           about
         </a>
       </Link>
       <a className="link" href="https://github.com/carbon-app/carbon">
         source
       </a>
-      <a className="link" href="/terms">
+      <a className="link" href="">
         terms
       </a>
-      <a className="link" href="/privacy">
+      <a className="link" href="">
         privacy
       </a>
-      <a className="link" href="/offsets">
+      <a className="link" href="">
         offsets
       </a>
       {/* <span className="new">New</span> */}
@@ -29,7 +29,7 @@ const Footer = () => (
     <div className="mt2 mb2">
       created by{' '}
       <a className="author-link" href="https://twitter.com/carbon_app">
-        @carbon_app
+        @Mr,BaBlU
       </a>{' '}
       ¬
     </div>
